@@ -75,6 +75,37 @@
 </section>
         </section>
         <section>
+<!-- Section de commande -->
+<section id="commande">
+    <h2>Commander une coque</h2>
+    <p>Pour commander une coque, sélectionnez votre modèle, personnalisez-le et envoyez-nous votre commande !</p>
+    
+    <form action="mailto:tonadresse@mail.com" method="post" enctype="text/plain">
+        <label for="produit">Choisissez votre coque :</label><br>
+        <select id="produit" name="produit" required>
+            <option value="Iphone 13 - Charme">Coque Iphone 13 - Charme</option>
+            <option value="Iphone 13 - Makore">Coque Iphone 13 - Makore</option>
+            <option value="Iphone 15 - Charme">Coque Iphone 15 - Charme</option>
+            <option value="Iphone 15 - Makore">Coque Iphone 15 - Makore</option>
+            <option value="Iphone 11 - Charme">Coque Iphone 11 - Charme</option>
+            <option value="Iphone 11 - Makore">Coque Iphone 11 - Makore</option>
+        </select><br><br>
+        
+        <label for="gravure">Personnalisation par gravure :</label><br>
+        <input type="text" id="gravure" name="gravure" placeholder="Votre texte à graver (facultatif)"><br><br>
+        
+        <label for="nom">Nom :</label><br>
+        <input type="text" id="nom" name="nom" required><br><br>
+        
+        <label for="email">Email :</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+        
+        <label for="adresse">Adresse de livraison :</label><br>
+        <textarea id="adresse" name="adresse" rows="4" cols="50" required></textarea><br><br>
+        
+        <button type="submit">Envoyer la commande</button>
+    </form>
+</section>
             <h2>Pourquoi choisir WoodProtect ?</h2>
             <p>Parce que protéger votre téléphone peut aussi protéger la planète.</p>
         </section>
