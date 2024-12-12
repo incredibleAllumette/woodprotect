@@ -67,7 +67,8 @@ footer, main {
 
 .product {
     display: flex;
-    justify-content: center;
+    flex-direction: column; /* Aligner les éléments verticalement */
+    justify-content: flex-start; /* Aligner les éléments au-dessus */
     align-items: center;
     margin-bottom: 30px;
     background-color: #f4f4f4;
@@ -79,7 +80,7 @@ footer, main {
 .product-img {
     width: 200px;
     height: auto;
-    margin-right: 30px;
+    margin-bottom: 15px; /* Ajoute de l'espace sous l'image */
     border-radius: 8px;
 }
 
