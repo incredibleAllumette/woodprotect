@@ -1,11 +1,19 @@
-/* Exemple de styles existants */
-body {
-    font-family: Arial, sans-serif;
+/* Styles globaux */
+html, body {
+    height: 100%;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
 }
 
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* Header */
 header {
     background-color: #4CAF50;
     color: white;
@@ -13,54 +21,34 @@ header {
     padding: 20px;
 }
 
-/* Ajout pour le logo */
+/* Logo */
 #logo {
-    width: 150px;  /* Taille fixe du logo */
-    height: auto;  /* Maintient les proportions de l'image */
-    display: block;  /* Pour s'assurer qu'il s'affiche comme un bloc */
-    margin: 0 auto;  /* Pour centrer l'image horizontalement */
+    width: 150px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
 }
 
-/* Autres styles que tu pourrais avoir */
+/* Sections */
+section {
+    margin-bottom: 20px;
+}
+
+/* Footer */
 footer {
     text-align: center;
     padding: 10px;
     background-color: #333;
     color: white;
-    /* Pour ajouter de l'espace en bas de chaque section */
+    margin-top: auto; /* Force le footer à se coller en bas de la page */
+}
+
+/* Empêche les marges et paddings excessifs */
 main {
-    padding-bottom: 50px;  /* Ajuste cette valeur si nécessaire */
+    padding-bottom: 50px;  /* Ajuste si nécessaire */
 }
 
-/* Pour ajuster le footer afin qu'il n'empiète pas sur le contenu */
-footer {
-    position: relative;
-    margin-top: 20px;  /* Ajoute un peu d'espace au-dessus du footer */
-}
-
-/* Ajouter un peu de marge sous le texte de chaque section */
-section {
-    margin-bottom: 20px; /* Cela ajoute de l'espace sous chaque section */
-}
-
-/* Enlève l'espace supplémentaire sous le footer */
-html, body {
-    height: 100%;
-    margin: 0;
-}
-
-body {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
-footer {
-    margin-top: 0;
-    padding-top: 0;
-}
-
-/* Empêche toute marge ou padding de s'ajouter en bas */
+/* Ajout pour éviter les espaces supplémentaires sous le footer */
 footer, main {
     margin-bottom: 0;
     padding-bottom: 0;
