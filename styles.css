@@ -43,4 +43,14 @@ section {
     margin-bottom: 20px; /* Cela ajoute de l'espace sous chaque section */
 }
 
+/* Enlève la marge et le padding par défaut du body */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Enlève toute marge ou padding supplémentaire sur le footer */
+footer {
+    margin: 0;
+    padding: 0;
 }
