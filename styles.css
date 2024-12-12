@@ -1,33 +1,30 @@
+/* Exemple de styles existants */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f9;
-    color: #333;
+    background-color: #f4f4f4;
 }
 
 header {
-    background-color: #5a8a55;
+    background-color: #4CAF50;
     color: white;
+    text-align: center;
     padding: 20px;
-    text-align: center;
 }
 
-h1 {
-    margin: 0;
+/* Ajout pour le logo */
+#logo {
+    width: 150px;  /* Taille fixe du logo */
+    height: auto;  /* Maintient les proportions de l'image */
+    display: block;  /* Pour s'assurer qu'il s'affiche comme un bloc */
+    margin: 0 auto;  /* Pour centrer l'image horizontalement */
 }
 
-p {
-    margin: 20px;
-    text-align: center;
-}
-
+/* Autres styles que tu pourrais avoir */
 footer {
-    background-color: #333;
-    color: white;
     text-align: center;
     padding: 10px;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+    background-color: #333;
+    color: white;
 }
