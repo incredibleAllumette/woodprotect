@@ -27,4 +27,20 @@ footer {
     padding: 10px;
     background-color: #333;
     color: white;
+    /* Pour ajouter de l'espace en bas de chaque section */
+main {
+    padding-bottom: 50px;  /* Ajuste cette valeur si nécessaire */
+}
+
+/* Pour ajuster le footer afin qu'il n'empiète pas sur le contenu */
+footer {
+    position: relative;
+    margin-top: 20px;  /* Ajoute un peu d'espace au-dessus du footer */
+}
+
+/* Ajouter un peu de marge sous le texte de chaque section */
+section {
+    margin-bottom: 20px; /* Cela ajoute de l'espace sous chaque section */
+}
+
 }
