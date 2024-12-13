@@ -37,6 +37,18 @@ footer {
     margin-top: auto;
 }
 
+.social-media {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.social-icon {
+    width: 30px;
+    height: 30px;
+}
+
 /* Section de produits */
 #products {
     padding: 40px 0;
